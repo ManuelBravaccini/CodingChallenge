@@ -1,0 +1,78 @@
+body{
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  font-family: helvetica;
+}
+
+.container{
+  background-color: rgba(0,0,0,0.5);
+  padding-top: 75px;
+  padding-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 20px;
+}
+
+header{
+  text-align: center;
+  color: #32CD32;
+}
+
+.logo{
+  width: 250px;
+}
+
+nav{
+  text-align: center;
+  background-color: #32CD32;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding: 10px;
+}
+
+main{
+  margin-left: 75px;
+  margin-right: 75px;
+  color: white;
+}
+
+div > h2{
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+div > h5{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+div > h5:before{
+  content: "\21A6";
+}
+
+div > p{
+  margin: 1px;
+}
+
+.charge1{
+  background-color: orange;
+  height: 30px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.charge2{
+  background-color: #32CD32;
+  height: 30px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.charge3{
+  background-color: red;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+}
